@@ -1,0 +1,151 @@
+*{
+    font-family: "Poppins", sans-serif;
+    
+}
+
+body{
+     background-image: linear-gradient(#E6E6FA,#B8E7FA);
+}
+
+/* ...........header-start............ */
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+}
+.h1-head{
+    margin-left: 50px;
+}
+.banner-text{
+    font-size: 40px;
+}
+.btn{
+    background-image: linear-gradient(30deg,#FFA500,#FFD447);
+    border: none;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.btn:hover,.btn2:hover{
+    background-image: linear-gradient(blue);
+    color: white;
+}
+
+/* ..........header-end.............  */
+
+
+main{
+    width: 80%;
+    margin: 0 auto;
+   
+}
+/* .........banner-section...........  */
+
+.banner-container{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E6EDF9;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+
+.btn2{
+  background-image: linear-gradient(30deg,#FFA500,#FFD447);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 3px gray;
+    cursor: pointer;
+    margin-top: 20px;
+
+}
+.btn2:hover{
+    background-color: red;
+}
+.web{
+    margin-top: 100px;
+    text-align: center;
+}
+
+/* ...........card-section...........  */
+
+.card-container{
+background-color: #E6EDF9;
+border-radius: 20px;
+padding: 30px;
+display: flex;
+justify-content: center;
+align-items: center;
+gap: 50px;
+margin-top: 50px;
+}
+
+.inspiration{
+    margin-top: 50px;
+    text-align:center;
+}
+
+iframe{
+    border-radius: 20px;
+   width: 1000px;
+   height: 480px;
+    
+}
+.iframe-section{
+    padding: 30px 20px;
+    border: 1px solid gray;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.target-section{
+    margin-top: 50px;
+
+}
+
+.target-text{
+
+    text-align: center;
+}
+.html-css-tailwind-card{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.html-card,.css-card,.tailwind-card{
+
+    width: 364px;
+    /* height: 244px; */
+    padding: 30px;
+    background-image: linear-gradient(180deg,#E6EDF9,#9DE5FF);
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey,-5px -5px 10px grey;
+
+}
+
+footer{
+    background-color: #E6E6FA;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footer-icon{
+    display: flex;
+    gap: 20px;
+}
